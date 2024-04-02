@@ -20,31 +20,26 @@ final class TabBarController: UITabBarController {
         super.viewWillAppear(animated)
         navigationController?.isNavigationBarHidden = true
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setTabBarItems()
         setTabBarUI()
         setTabBarHeight()
     }
-    
-//    override func viewDidLayoutSubviews() {
-//        super.viewDidLayoutSubviews()
-//        tabBar.frame.size.height = self.tabBarHeight + getSafeAreaBottomHeight()
-//    }
 }
 
 private extension TabBarController {
     
     func setTabBarItems() {
         
-        let homeVC = UINavigationController(rootViewController: UIViewController())
-        let actionListVC = UINavigationController(rootViewController: UIViewController())
+        let myLocationVC = UINavigationController(rootViewController: UIViewController())
+        let newsVC = UINavigationController(rootViewController: UIViewController())
         let myPageVC = UINavigationController(rootViewController: UIViewController())
         
         tabs = [
-            homeVC,
-            actionListVC,
+            myLocationVC,
+            newsVC,
             myPageVC
         ]
         
@@ -55,12 +50,12 @@ private extension TabBarController {
         }
         
         setViewControllers(tabs, animated: false)
-
+        
     }
     
     func setTabBarUI() {
         UITabBar.clearShadow()
-        tabBar.backgroundColor = .gray
+        tabBar.backgroundColor = .gray800
         tabBar.tintColor = .green
         tabBar.layer.masksToBounds = false
         tabBar.layer.shadowColor = UIColor.gray.cgColor
