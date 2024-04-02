@@ -9,11 +9,12 @@ import UIKit
 
 enum ImageLiterals {
     enum TabBar {
-        static var home: UIImage { .load(name: "home_default").withRenderingMode(.alwaysOriginal) }
-        static var selected_home: UIImage { .load(name: "home_active").withRenderingMode(.alwaysOriginal) }
-        static var actionList: UIImage { .load(name: "actionList_default").withRenderingMode(.alwaysOriginal) }
-        static var selected_actionList: UIImage { .load(name: "actionList_active").withRenderingMode(.alwaysOriginal) }
-        static var mypage: UIImage { .load(name: "mypage_default").withRenderingMode(.alwaysOriginal) }
-        static var selected_mypage: UIImage { .load(name: "mypage_active").withRenderingMode(.alwaysOriginal) }
+        static var myLocation_On: UIImage { .load(name: "MyLocation_ic_On").withRenderingMode(.alwaysOriginal) }
+        static var myLocation_Off: UIImage { .load(name: "MyLocation_ic_Off").withRenderingMode(.alwaysOriginal) }
+        static var News_ic_On: UIImage { .load(name: "News_ic_On").withRenderingMode(.alwaysOriginal) }
+        static var News_ic_Off: UIImage { .load(name: "News_ic_Off").withRenderingMode(.alwaysOriginal) }
+        static var myPage_ic_On: UIImage { .load(name: "MyPage_ic_On").withRenderingMode(.alwaysOriginal) }
+        static var myPage_ic_Off: UIImage { .load(name: "MyPage_ic_Off").withRenderingMode(.alwaysOriginal) }
+
     }
 }
