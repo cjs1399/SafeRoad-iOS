@@ -10,6 +10,14 @@ import UIKit
 extension UIColor {
     
     // MARK: - Gray
+
+    static var gray100: UIColor {
+        return UIColor(hex: "#C3C4CE")
+    }
+    
+    static var gray200: UIColor {
+        return UIColor(hex: "#9093A8")
+    }
     
     static var gray300: UIColor {
         return UIColor(hex: "#6B6E82")
