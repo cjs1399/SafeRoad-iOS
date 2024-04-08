@@ -36,7 +36,7 @@ private extension TabBarController {
         
         let myLocationVC = UINavigationController(rootViewController: UIViewController())
         let newsVC = UINavigationController(rootViewController: UIViewController())
-        let myPageVC = UINavigationController(rootViewController: UIViewController())
+        let myPageVC = UINavigationController(rootViewController: MyPageViewController())
         
         tabs = [
             myLocationVC,
