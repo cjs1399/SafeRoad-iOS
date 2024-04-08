@@ -13,6 +13,7 @@ final class TabBarController: UITabBarController {
     
     private let tabBarHeight: CGFloat = SizeLiterals.Screen.screenHeight * 74 / 812
     private var tabs: [UIViewController] = []
+    private var tabBarItemTopInsets = SizeLiterals.Screen.screenHeight * 11 / 812
     
     // MARK: - View Life Cycle
     
@@ -45,6 +46,7 @@ private extension TabBarController {
         
         TabBarItemType.allCases.forEach {
             let tabBarItem = $0.setTabBarItem()
+            tabBarItem.imageInsets = UIEdgeInsets(top: tabBarItemTopInsets, left: 0, bottom: 0, right: 0)
             tabs[$0.rawValue].tabBarItem = tabBarItem
             tabs[$0.rawValue].tabBarItem.tag = $0.rawValue
         }
