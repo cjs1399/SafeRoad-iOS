@@ -101,6 +101,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		253046C22BC3AAD9008F3B7E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		25D40A0B2BBBDCAA009A445D /* Global */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +122,7 @@
 		25D40A0C2BBBDCAB009A445D /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				25EC55B92BC3A9CA00268338 /* New Group */,
+				253046C22BC3AAD9008F3B7E /* New Group */,
 				25D40A102BBBDCE4009A445D /* Common */,
 			);
 			path = Presentation;
@@ -248,13 +255,6 @@
 				25D40A372BBBDDDF009A445D /* Lotties.swift */,
 			);
 			path = Lotties;
-			sourceTree = "<group>";
-		};
-		25EC55B92BC3A9CA00268338 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		25FB62402BBAF978004A242E = {
