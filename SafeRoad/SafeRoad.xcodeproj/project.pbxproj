@@ -255,6 +255,7 @@
 		25D40A0B2BBBDCAA009A445D /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				25FB62572BBAF979004A242E /* LaunchScreen.storyboard */,
 				25D40A232BBBDD4A009A445D /* Extention */,
 				25D40A222BBBDD49009A445D /* Literals */,
 				25D40A1F2BBBDD41009A445D /* Protocol */,
@@ -277,6 +278,7 @@
 		25D40A0D2BBBDCAD009A445D /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				25D40A0C2BBBDCAB009A445D /* Presentation */,
 				25D40A412BBBDF0D009A445D /* Network.swift */,
 			);
 			path = Network;
@@ -427,9 +429,7 @@
 				25D40A0F2BBBDCAF009A445D /* Application */,
 				25D40A0E2BBBDCAE009A445D /* Data */,
 				25D40A0D2BBBDCAD009A445D /* Network */,
-				25D40A0C2BBBDCAB009A445D /* Presentation */,
 				25D40A0B2BBBDCAA009A445D /* Global */,
-				25FB62572BBAF979004A242E /* LaunchScreen.storyboard */,
 				25FB625A2BBAF979004A242E /* Info.plist */,
 			);
 			path = SafeRoad;
@@ -500,7 +500,6 @@
 				25D409FC2BBBDA57009A445D /* XCRemoteSwiftPackageReference "Then" */,
 				25D409FF2BBBDA83009A445D /* XCRemoteSwiftPackageReference "RxSwift" */,
 				25D40A082BBBDA94009A445D /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				25A211AD2BC4C32F0059893E /* XCRemoteSwiftPackageReference "naveridlogin-sdk-ios" */,
 			);
 			productRefGroup = 25FB624A2BBAF978004A242E /* Products */;
 			projectDirPath = "";
@@ -778,14 +777,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		25A211AD2BC4C32F0059893E /* XCRemoteSwiftPackageReference "naveridlogin-sdk-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/naver/naveridlogin-sdk-ios";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 		25D409ED2BBBD9FC009A445D /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya.git";
