@@ -15,6 +15,9 @@ enum ImageLiterals {
         static var News_ic_Off: UIImage { .load(name: "News_ic_Off").withRenderingMode(.alwaysOriginal) }
         static var myPage_ic_On: UIImage { .load(name: "MyPage_ic_On").withRenderingMode(.alwaysOriginal) }
         static var myPage_ic_Off: UIImage { .load(name: "MyPage_ic_Off").withRenderingMode(.alwaysOriginal) }
-
+    }
+    
+    enum MyPage {
+        static var user_ic: UIImage { .load(name: "User_ic").withRenderingMode(.alwaysOriginal)}
     }
 }
