@@ -93,7 +93,7 @@
 		25D40A412BBBDF0D009A445D /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		25D40A432BBBDF12009A445D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		25D40A462BBC0DE0009A445D /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
-		25FB62492BBAF978004A242E /* SafeLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FB62492BBAF978004A242E /* SafeRoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeRoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FB624C2BBAF978004A242E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25FB624E2BBAF978004A242E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		25FB62502BBAF978004A242E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -408,7 +408,7 @@
 		25FB62402BBAF978004A242E = {
 			isa = PBXGroup;
 			children = (
-				25FB624B2BBAF978004A242E /* SafeLoad */,
+				25FB624B2BBAF978004A242E /* SafeRoad */,
 				25FB624A2BBAF978004A242E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -416,12 +416,12 @@
 		25FB624A2BBAF978004A242E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25FB62492BBAF978004A242E /* SafeLoad.app */,
+				25FB62492BBAF978004A242E /* SafeRoad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		25FB624B2BBAF978004A242E /* SafeLoad */ = {
+		25FB624B2BBAF978004A242E /* SafeRoad */ = {
 			isa = PBXGroup;
 			children = (
 				25D40A0F2BBBDCAF009A445D /* Application */,
@@ -432,15 +432,15 @@
 				25FB62572BBAF979004A242E /* LaunchScreen.storyboard */,
 				25FB625A2BBAF979004A242E /* Info.plist */,
 			);
-			path = SafeLoad;
+			path = SafeRoad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		25FB62482BBAF978004A242E /* SafeLoad */ = {
+		25FB62482BBAF978004A242E /* SafeRoad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25FB625D2BBAF979004A242E /* Build configuration list for PBXNativeTarget "SafeLoad" */;
+			buildConfigurationList = 25FB625D2BBAF979004A242E /* Build configuration list for PBXNativeTarget "SafeRoad" */;
 			buildPhases = (
 				25FB62452BBAF978004A242E /* Sources */,
 				25FB62462BBAF978004A242E /* Frameworks */,
@@ -450,7 +450,7 @@
 			);
 			dependencies = (
 			);
-			name = SafeLoad;
+			name = SafeRoad;
 			packageProductDependencies = (
 				25D409EE2BBBD9FC009A445D /* Moya */,
 				25D409F02BBBD9FC009A445D /* ReactiveMoya */,
@@ -466,7 +466,7 @@
 				25D40A092BBBDA94009A445D /* Kingfisher */,
 			);
 			productName = SafeLoad;
-			productReference = 25FB62492BBAF978004A242E /* SafeLoad.app */;
+			productReference = 25FB62492BBAF978004A242E /* SafeRoad.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -484,7 +484,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 25FB62442BBAF978004A242E /* Build configuration list for PBXProject "SafeLoad" */;
+			buildConfigurationList = 25FB62442BBAF978004A242E /* Build configuration list for PBXProject "SafeRoad" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -500,12 +500,13 @@
 				25D409FC2BBBDA57009A445D /* XCRemoteSwiftPackageReference "Then" */,
 				25D409FF2BBBDA83009A445D /* XCRemoteSwiftPackageReference "RxSwift" */,
 				25D40A082BBBDA94009A445D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				25A211AD2BC4C32F0059893E /* XCRemoteSwiftPackageReference "naveridlogin-sdk-ios" */,
 			);
 			productRefGroup = 25FB624A2BBAF978004A242E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25FB62482BBAF978004A242E /* SafeLoad */,
+				25FB62482BBAF978004A242E /* SafeRoad */,
 			);
 		};
 /* End PBXProject section */
@@ -708,7 +709,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X96X8FG389;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SafeLoad/Info.plist;
+				INFOPLIST_FILE = SafeRoad/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -718,7 +719,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Sopt-Cheon.SafeLoad";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sopt-Cheon.SafeRoad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -735,7 +736,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X96X8FG389;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SafeLoad/Info.plist;
+				INFOPLIST_FILE = SafeRoad/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -745,7 +746,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Sopt-Cheon.SafeLoad";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sopt-Cheon.SafeRoad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -756,7 +757,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25FB62442BBAF978004A242E /* Build configuration list for PBXProject "SafeLoad" */ = {
+		25FB62442BBAF978004A242E /* Build configuration list for PBXProject "SafeRoad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25FB625B2BBAF979004A242E /* Debug */,
@@ -765,7 +766,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25FB625D2BBAF979004A242E /* Build configuration list for PBXNativeTarget "SafeLoad" */ = {
+		25FB625D2BBAF979004A242E /* Build configuration list for PBXNativeTarget "SafeRoad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25FB625E2BBAF979004A242E /* Debug */,
@@ -777,6 +778,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		25A211AD2BC4C32F0059893E /* XCRemoteSwiftPackageReference "naveridlogin-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/naver/naveridlogin-sdk-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		25D409ED2BBBD9FC009A445D /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya.git";
